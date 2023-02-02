@@ -1,0 +1,35 @@
+const numeroRandon=match.floor((mat.randon()*(100 - 1 + 1))+ 1);
+num = numeroRandom%2
+if(num=0){
+console.log("el numero" + numeroRandom + es par.")
+}
+else{
+  console.log("el numero" + numeroRandom +"es impar."); 
+  }
+  
+  (ejercicio2)
+  let palabra1="tren"
+  let palabra2="edificio"
+  if (palabra1.legth>palabra2.length){
+  console.log ("la palabra" + palabra2 +"es mas largaque la palabra" + palabra1)
+  }
+  else{
+  console.log("ambas palabras tienen la misma cantidad de carecteres.")
+  }
+  
+  (ejercicio 3)
+  let numero=1;
+  while(numero <=10){
+  let resultado = numero++;
+  console.log(resultado +"x*9"= " + resultado + 9);
+  }
+  
+  (ejercicio 4)
+  
+  let Milista=[];
+for(i=0; i<10; i++){
+let numeroRandom = math.floor((math.random()*(100 - 1 + 1)) + 1);
+num=numeroRandom;
+Milista.push(num);
+}
+console.log(Milista);
