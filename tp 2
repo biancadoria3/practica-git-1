@@ -10,10 +10,10 @@ else{
   (ejercicio2)
   let palabra1="tren"
   let palabra2="edificio"
-  if (palabra1.legth>palabra2.length){
+  if (palabra1.lenght>palabra2.length){
   console.log ("la palabra" + palabra2 +"es mas largaque la palabra" + palabra1)
   }
-  else{
+  else if (palabra1.length<palabra2.length)
   console.log("ambas palabras tienen la misma cantidad de carecteres.")
   }
   
@@ -23,8 +23,21 @@ else{
   let resultado = numero++;
   console.log(resultado +"x*9"= " + resultado + 9);
   }
-  
   (ejercicio 4)
+  funcion multiplicar(num){
+  return num * 15
+  }
+  let cualculo = multiplicar(5);
+  console.log(calculo)
+  
+  
+  
+  
+  
+  
+  
+  
+  (ejercicio 5)
   
   let Milista=[];
 for(i=0; i<10; i++){
